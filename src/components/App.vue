@@ -1,5 +1,5 @@
-<template lang="pug">
-  .container Hello {{bundler}}
+<template>
+  <div class="container">Hello {{bundler}}</div>
 </template>
 
 <script lang="ts">
