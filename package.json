@@ -1,19 +1,12 @@
 {
   "name": "iine-counter",
-  "version": "1.0.0",
-  "description": "iine-counter",
-  "main": "index.js",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/takanakahiko/iine-counter.git"
-  },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/takanakahiko/iine-counter/issues"
-  },
-  "homepage": "https://github.com/takanakahiko/iine-counter#readme"
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
 }
