@@ -12,4 +12,4 @@ jobs:
       - run: |
           npm ci
           npm run build
-          firebase deploy --token "${{ secrets.FIREBASE_TOKEN }}"
+          npm run deploy -- --token "${{ secrets.FIREBASE_TOKEN }}"

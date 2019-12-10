@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "firebase deploy"
   },
   "devDependencies": {
     "@vue/component-compiler-utils": "^3.1.0",
