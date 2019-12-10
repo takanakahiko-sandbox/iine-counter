@@ -8,8 +8,8 @@ function incomingData() {
 service cloud.firestore {
   match /databases/{database}/documents {
     match /counter/{num} {
+      allow read;
       allow update: if incomingData().count == existingData().count + 1
-      allow read: if true;
     }
   }
 }
