@@ -7,9 +7,17 @@
     "build": "parcel build src/index.html"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "@vue/component-compiler-utils": "^3.1.0",
+    "firebase-tools": "^7.9.0",
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.7",
+    "typescript": "^3.7.3",
+    "vue-template-compiler": "^2.6.10"
   },
   "dependencies": {
-    "vue": "^2.6.10"
+    "firebase": "^7.5.2",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.4",
+    "vuefire": "^2.2.0"
   }
 }
