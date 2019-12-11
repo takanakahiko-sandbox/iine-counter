@@ -6,6 +6,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      apiKey: ${{ secrets.apiKey }}
+      authDomain: ${{ secrets.authDomain }}
+      databaseURL: ${{ secrets.databaseURL }}
+      projectId: ${{ secrets.projectId }}
+      storageBucket: ${{ secrets.storageBucket }}
+      messagingSenderId: ${{ secrets.messagingSenderId }}
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
